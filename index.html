@@ -42,20 +42,14 @@
 		<!-- Two -->
 			<section id="two" class="wrapper">
 				<div class="inner alt">
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
-						<div class="content">
-							<h3>Magna sed ultrices</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-						</div>
-					</section>
+					
 					<section id="three" class="wrapper style2 special">
 						
 					</section>
 					<section class="spotlight">
 						<header class="major">
-				                    <iframe width="430" height="411" src="https://www.youtube.com/embed/ekHovQkbmVc" title="4.6 def - Funções (Parte 1) - Tutorial Python 3 em Português" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-				                </header>
+				             <iframe width="430" height="411" src="https://www.youtube.com/embed/ekHovQkbmVc" title="4.6 def - Funções (Parte 1) - Tutorial Python 3 em Português" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+				         </header>
 						
 						    
 					</section>
@@ -101,16 +95,28 @@
 						
 						<h5>Software Livre</h5>
 						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-						<h5>Preformatted</h5>
-						<pre><code>i = 0;
+						<h5>Mude a cor do programa </h5>
+						<pre><code>
+from colors import Color
 
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
+def header_banner():
+	print(Color.AMARELO +
+					'''
+					╔══════════════════════════════════════════════════════════════════════════╗       
+					║                _ _|          |             |      |                      ║
+					║    _ \   |  |    |     _ \    _|    _` |    _ \   |    -_)  (_-<         ║
+					║	  .__/  \_, |  ___|   .__/  \__|  \__,_|  _.__/  _|  \___|  ___/v1.3.0 ║
+					║  _|     ___/         _|                                                  ║
+					║                                                                          ║
+					║                 Copyright (c) 2022 Juan Carlos Bindez                    ║  
+					╚══════════════════════════════════════════════════════════════════════════╝                                                                                 
+								 
+										*[Ctrl + C] Para Sair do Programa               
+					'''
++ Color.RESET)
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+
+                        </code></pre>
 					</section>
 
 				
@@ -134,12 +140,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<td>29/09/22</td>
 									</tr>
 									<tr>
-										<td>Item Two</td>
+										<td>v1.2.0</td>
 										<td>Vis ac commodo adipiscing arcu aliquet.</td>
 										<td>19.99</td>
 									</tr>
 									<tr>
-										<td>Item Three</td>
+										<td>v1.1.0</td>
 										<td> Morbi faucibus arcu accumsan lorem.</td>
 										<td>29.99</td>
 									</tr>
